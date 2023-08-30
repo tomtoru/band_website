@@ -1,0 +1,133 @@
+body{
+    font: 14px/1.9 'Noto Sans JP', Arial, Verdana, 游ゴシック, YuGothic,'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', メイリオ, Meiryo,sans-serif;
+    font-weight: 300;
+    -webkit-text-size-adjust:100%;
+    overflow-x: hidden;
+    color: #000;
+    background: #fff;
+}
+
+a{
+    color: #0066ff;
+    text-decoration: none;
+}
+
+a:hover, .active{
+  text-decoration: underline;
+}
+
+a:active, a:focus,input:active, input:focus{outline:0;}
+
+
+#header{
+    text-align: center;
+}
+
+#header h1{
+    padding-top: 60px;
+}
+
+#mainnav a{
+    color: #000;
+}
+
+#footer{
+    clear: both;
+    padding: 50px 30px 50px 0;
+    text-align: center;
+    font-size: 12px;
+}
+
+section{
+    clear:both;
+    padding-top: 70px;
+}
+
+section h2{
+    width: 60%;
+    margin: 0 auto 40px;
+    font-size: 22px;
+    font-weight:normal;
+    text-align: center;
+    background: url(../images/border.png) repeat-x 0 50%;
+    background-size: 1px 1px;
+}
+
+section h2 span {
+    background: #fff;
+    padding: 0 80px;
+}
+
+.main-img{
+    width: 100%;
+    height: auto;
+}
+
+.content {
+    text-align: center;
+}
+
+@media only screen and (min-width: 800px){
+    body{
+        font-size:14px;
+    }
+
+    #mainnav li{
+        display: inline-block;
+        padding: 50px 25px;
+        font-size: 15px;
+    }
+
+    .l-img {
+        width: 60%;
+        height: auto;
+    }
+
+    .youtube-area {
+        aspect-ratio: 16/9;
+        width: 60%;
+        height: auto;
+    }
+
+    .spotify-area {
+        width: 60%;
+        height: 352px; 
+        border-radius: 12px
+    }
+}
+
+@media only screen and (max-width: 799px){
+    #mainnav li{
+        display: inline-block;
+        padding: 10px 5px;
+        font-size: 12px;
+    }
+
+    .l-img {
+        width: 90%;
+        height: auto;
+    }
+
+    .youtube-area {
+        aspect-ratio: 16/9;
+        width: 90%;
+        height: auto;
+    }
+
+    .spotify-area {
+        width: 90%;
+        height: 200px; 
+    }
+
+    section{
+        padding-top: 50px;
+    }
+
+    section h2{
+        margin: 0 auto 10px;
+    }
+
+    section h2 span {
+        padding: 0 30px;
+    }
+}
