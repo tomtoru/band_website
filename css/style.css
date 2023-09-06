@@ -67,6 +67,11 @@ section h2 span {
     text-align: center;
 }
 
+.credit {
+    text-align: right;
+    font-weight: bold;
+}
+
 @media only screen and (min-width: 800px){
     body{
         font-size:14px;
@@ -87,6 +92,10 @@ section h2 span {
         aspect-ratio: 16/9;
         width: 60%;
         height: auto;
+    }
+
+    .credit {
+        width: 80%;
     }
 
     .spotify-area {
@@ -112,6 +121,10 @@ section h2 span {
         aspect-ratio: 16/9;
         width: 90%;
         height: auto;
+    }
+
+    .credit {
+        width: 95%;
     }
 
     .spotify-area {
