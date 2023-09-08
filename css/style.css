@@ -18,6 +18,14 @@ a:hover, .active{
 
 a:active, a:focus,input:active, input:focus{outline:0;}
 
+ul {
+    padding-left: 0px
+}
+
+li {
+    padding-left: 0px
+}
+
 
 #header{
     text-align: center;
